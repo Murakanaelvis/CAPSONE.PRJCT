@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bda76c;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #1c1d1f;
+}
+
+.balance {
+    margin-bottom: 20px;
+}
+
+.transaction-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transaction-form input {
+    padding: 8px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.transaction-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: rgb(155, 59, 59);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.transaction-form button:hover {
+    background-color: #0056b3;
+}
+
+.transactions {
+    margin-top: 20px;
+}
+
+#transactionList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#transactionList li {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.time p {
+    font-size: 16px;
+    color: #555;
+}
